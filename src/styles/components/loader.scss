@@ -1,0 +1,36 @@
+@keyframes show_loader {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: .5;
+  }
+}
+
+.loader {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  background-color: #000000;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999999;
+  transition: 3s;
+  opacity: .5;
+  animation: show_loader 0.9s ease-in;
+  svg {
+    background: transparent;
+  }
+  p {
+    position: absolute;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  div {
+    height: 60px;
+    width: 60px;
+  }
+}

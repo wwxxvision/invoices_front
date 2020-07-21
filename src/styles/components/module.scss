@@ -1,0 +1,27 @@
+.form__module {
+  .module__title {
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .module__wrapper {
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.1), 0 2px 6px 0 rgba(0,0,0,.1);
+    height: 100&;
+  }
+
+  .services__adder {
+    margin: 10px;
+  }
+
+  .services__total {
+    margin: 10px 0;
+    background-color: grey;
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between
+  }
+}

@@ -1,0 +1,9 @@
+@media (max-width: #{$mobile_sm}px) {
+  .topbar {
+    .block {
+     .search {
+       width: 150px;
+     }
+    }
+  }
+}

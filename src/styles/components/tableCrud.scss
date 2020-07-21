@@ -1,0 +1,33 @@
+.table-crud {
+  .table-crud__header {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .table-crud__body {
+    background-color: #fff;
+    .table-crud__data {
+      display: table-cell;
+      max-width: 100px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .table-crud__ceil {
+    display: flex;
+    justify-content: space-evenly;
+    span {
+      cursor: pointer;
+      &:hover {
+        opacity: 0.5;
+      }
+      &:nth-child(3) {
+        color: #f3c623;
+      }
+      &:nth-child(2) {
+        svg {
+          color: #d92027;
+        }
+      }
+    }
+  }
+}

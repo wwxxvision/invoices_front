@@ -1,0 +1,24 @@
+$padding: 10px;
+.search {
+  width: 200px;
+  height: 35px;
+  position: relative;
+  color: #c4c4c4;
+  font-family: $ft_roboto;
+  .input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 $padding +  2 * $padding;
+    font-family: $ft_roboto;
+  }
+  .icon {
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: $padding;
+  }
+}

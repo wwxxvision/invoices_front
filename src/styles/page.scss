@@ -1,0 +1,20 @@
+.content {
+  height: 100%;
+  width:  calc(100% - #{$tab_width});
+  background-color: $light_flow;
+  overflow-y: auto;
+  &.content-auth {
+    width: 100%;
+  }
+  .wrapper {
+    min-height: 100%;
+    padding: 15px;
+    display: grid;
+    grid-auto-rows: 50px;
+    row-gap: 15px;
+    .content__title {
+      font-size: 25px;
+      font-family: $ft_monserat;
+    }
+  }
+}

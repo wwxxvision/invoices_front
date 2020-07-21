@@ -1,0 +1,77 @@
+@import './fonts';
+@import './common//mixins';
+@import './common/variables';
+
+/*Venodrs */
+@import "~bootstrap/scss/bootstrap";
+
+/* Pages */
+@import './page';
+
+/* Components */
+@import './components/tabpanel/tabpanel';
+@import './components/search';
+@import './components/topbar/topbar';
+@import './components/modal';
+@import './components/loader';
+@import './components/module';
+@import './components/tableCrud';
+
+/* Components Media */
+@import './components/tabpanel/media_tabpanel';
+@import './components/topbar/media_topbar';
+
+* { padding: 0; margin: 0; box-sizing: border-box;}
+*::after, *::before { box-sizing: border-box;}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+div {
+  -webkit-tap-highlight-color: transparent;
+}
+
+#root , .page {
+  width: 100%;
+  height: 100%;
+}
+
+.page {
+  display: flex;
+  overflow: hidden;
+}
+
+// utils
+.flex {
+  display: flex;
+}
+
+.flex-space-between {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.full_width {
+  width: 100%;
+}
+
+.mg-10 {
+  margin-left: 10px;
+}
+
+.mg-t-10 {
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.error__text {
+  font-size: 80%;
+  color: #dc3545;
+  margin: 10px 0;
+}
